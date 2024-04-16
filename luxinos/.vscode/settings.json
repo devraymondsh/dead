@@ -1,0 +1,48 @@
+{
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "C_Cpp.default.cStandard": "c17",
+  "files.associations": {
+    "*.h": "c",
+    "io_context": "c",
+    "bit": "c",
+    "cstddef": "c",
+    "functional": "c",
+    "memory": "c",
+    "type_traits": "c",
+    "limits": "c",
+    "utility": "c",
+    "system_error": "c",
+    "condition_variable": "c",
+    "sstream": "c",
+    "ratio": "c",
+    "algorithm": "c",
+    "format": "c",
+    "thread": "c",
+    "chrono": "c",
+    "typeinfo": "c"
+  },
+  "C_Cpp.clang_format_path": "${workspaceFolder}/c/.clang-format",
+  "cmake.sourceDirectory": "/home/raymond/projects/luxinos/c",
+  "lldb.displayFormat": "auto",
+  "lldb.showDisassembly": "auto",
+  "lldb.dereferencePointers": true,
+  "lldb.consoleMode": "commands"
+}

@@ -1,0 +1,5 @@
+**/rust/target
+**/rust/Cargo.lock
+
+**/c/build
+**/build

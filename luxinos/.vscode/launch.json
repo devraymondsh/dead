@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "args": ["hi"],
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug C server",
+      "cwd": "${workspaceFolder}",
+      "program": "${workspaceFolder}/build/guessing-game-server"
+    },
+    {
+      "args": ["hi"],
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug C client",
+      "cwd": "${workspaceFolder}",
+      "program": "${workspaceFolder}/build/guessing-game-client"
+    }
+  ]
+}

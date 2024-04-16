@@ -1,0 +1,74 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'guessing-game-server'",
+      "cargo": {
+        "args": ["build", "--bin=guessing-game-server", "--package=rust"],
+        "filter": {
+          "name": "guessing-game-server",
+          "kind": "bin"
+        }
+      },
+      "args": ["hi"],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'guessing-game-server'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=guessing-game-server",
+          "--package=rust"
+        ],
+        "filter": {
+          "name": "guessing-game-server",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'guessing-game-client'",
+      "cargo": {
+        "args": ["build", "--bin=guessing-game-client", "--package=rust"],
+        "filter": {
+          "name": "guessing-game-client",
+          "kind": "bin"
+        }
+      },
+      "args": ["hi"],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'guessing-game-client'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=guessing-game-client",
+          "--package=rust"
+        ],
+        "filter": {
+          "name": "guessing-game-client",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
