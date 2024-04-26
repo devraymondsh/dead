@@ -3,3 +3,6 @@
 
 **/c/build
 **/build
+
+**/zig-cache
+**/zig-out
