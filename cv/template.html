@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mahdi Sharifi - Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        color: #000;
+        background-color: #f7f7f7;
+        font-family: "Aleo", Arial;
+      }
+
+      h1,
+      h2 {
+        margin: auto 0;
+      }
+
+      a {
+        color: #0a0a69;
+      }
+
+      /* h2 {
+        color: #855041;
+      } */
+
+      ul {
+        padding-left: 1.5em;
+        margin-top: 0.5%;
+      }
+
+      li {
+        text-align: justify;
+        padding-bottom: 0.1em;
+      }
+
+      .container {
+        margin: 0 auto;
+        max-width: 800px;
+      }
+
+      .title {
+        color: #393e46;
+        margin-top: 2.5%;
+        font-style: italic;
+        font-weight: normal;
+      }
+
+      .section {
+        padding-bottom: 10px;
+      }
+
+      .section h2 {
+        margin: 0;
+        color: #393e46;
+        border-bottom: 1px solid #b1abab;
+      }
+
+      .section div {
+        margin-top: 0.5em;
+      }
+      /* .section p {
+        margin-top: 0.5em;
+      } */
+
+      .header {
+        margin: 0;
+        /* margin-bottom: 2%; */
+        padding: 0;
+        display: flow-root;
+      }
+
+      img {
+        border-radius: 50%;
+        height: 8em;
+      }
+
+      div strong {
+        color: #393e46;
+      }
+
+      .name-n-title {
+        float: left;
+        display: -webkit-box;
+      }
+
+      .name-n-title div {
+        margin: auto 5%;
+      }
+
+      .contact-n-links {
+        float: right;
+      }
+      .contact-n-links p {
+        display: flex;
+        align-items: center;
+      }
+      .contact-n-links p:first-child {
+        margin-top: 0 !important;
+      }
+      .contact-n-links p:last-child {
+        margin-bottom: 0 !important;
+      }
+      .contact-n-links p svg {
+        width: 25px;
+        height: 25px;
+        padding: 0 5px;
+      }
+      .contact-n-links p a {
+        text-decoration: none;
+        color: #393e46;
+      }
+
+      .languages span {
+        padding: 0 5%;
+      }
+      .languages span:first-child {
+        padding-left: 0 !important;
+      }
+      .languages span:last-child {
+        padding-right: 0 !important;
+      }
+      .languages {
+        display: inline;
+      }
+
+      .work-history {
+        display: inline;
+      }
+      .duration {
+        float: right;
+      }
+
+      .company-name {
+        font-style: italic;
+      }
+
+      .no-margin {
+        margin: 0 !important;
+      }
+
+      svg.link {
+        width: 20px;
+        height: 20px;
+      }
+
+      .article-group:first-child {
+        margin-top: 0.1rem !important;
+      }
+      .article-group:last-child {
+        margin-top: 0 !important;
+      }
+      .article-group {
+        width: 100%;
+        display: inline-flex;
+      }
+      .article-with-svg {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        margin-top: 0% !important;
+      }
+      .article-with-svg svg {
+        padding-right: 0.2em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <dir class="header">
+        <div class="name-n-title">
+          <img src="pfp.png" />
+          <div>
+            <h1>Mahdi Sharifi</h1>
+            <h2 class="title">Software Engineer</h2>
+          </div>
+        </div>
+        <div class="contact-n-links">
+          <p>
+            <svg viewBox="0 0 24 24" fill="none">
+              <path
+                d="M3 5.5C3 14.0604 9.93959 21 18.5 21C18.8862 21 19.2691 20.9859 19.6483 20.9581C20.0834 20.9262 20.3009 20.9103 20.499 20.7963C20.663 20.7019 20.8185 20.5345 20.9007 20.364C21 20.1582 21 19.9181 21 19.438V16.6207C21 16.2169 21 16.015 20.9335 15.842C20.8749 15.6891 20.7795 15.553 20.6559 15.4456C20.516 15.324 20.3262 15.255 19.9468 15.117L16.74 13.9509C16.2985 13.7904 16.0777 13.7101 15.8683 13.7237C15.6836 13.7357 15.5059 13.7988 15.3549 13.9058C15.1837 14.0271 15.0629 14.2285 14.8212 14.6314L14 16C11.3501 14.7999 9.2019 12.6489 8 10L9.36863 9.17882C9.77145 8.93713 9.97286 8.81628 10.0942 8.64506C10.2012 8.49408 10.2643 8.31637 10.2763 8.1317C10.2899 7.92227 10.2096 7.70153 10.0491 7.26005L8.88299 4.05321C8.745 3.67376 8.67601 3.48403 8.55442 3.3441C8.44701 3.22049 8.31089 3.12515 8.15802 3.06645C7.98496 3 7.78308 3 7.37932 3H4.56201C4.08188 3 3.84181 3 3.63598 3.09925C3.4655 3.18146 3.29814 3.33701 3.2037 3.50103C3.08968 3.69907 3.07375 3.91662 3.04189 4.35173C3.01413 4.73086 3 5.11378 3 5.5Z"
+                stroke="#000000"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <a target="_blank" href="tel:+12245329626">+1 (224) 532 9626</a>
+          </p>
+          <p>
+            <svg viewBox="0 0 24 24" fill="none">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M3.75 5.25L3 6V18L3.75 18.75H20.25L21 18V6L20.25 5.25H3.75ZM4.5 7.6955V17.25H19.5V7.69525L11.9999 14.5136L4.5 7.6955ZM18.3099 6.75H5.68986L11.9999 12.4864L18.3099 6.75Z"
+                fill="#080341"
+              /></svg
+            ><a target="_blank" href="mailto:mail@mahdi-sharifi.ir"
+              >mail@mahdi-sharifi.ir</a
+            >
+          </p>
+          <p>
+            <svg
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="800px"
+              height="800px"
+              viewBox="0 0 20 20"
+              version="1.1"
+            >
+              <title>github [#142]</title>
+              <desc>Created with Sketch.</desc>
+              <defs></defs>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="Dribbble-Light-Preview"
+                  transform="translate(-140.000000, -7559.000000)"
+                  fill="#000000"
+                >
+                  <g id="icons" transform="translate(56.000000, 160.000000)">
+                    <path
+                      d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                      id="github-[#142]"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <a target="_blank" href="https://github.com/devraymondsh">Github</a>
+          </p>
+          <p>
+            <svg viewBox="0 0 24 24" fill="none">
+              <path
+                d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z"
+                fill="#0F0F0F"
+              />
+              <path
+                d="M5 10C5 9.44772 5.44772 9 6 9H7C7.55228 9 8 9.44771 8 10V18C8 18.5523 7.55228 19 7 19H6C5.44772 19 5 18.5523 5 18V10Z"
+                fill="#0F0F0F"
+              />
+              <path
+                d="M11 19H12C12.5523 19 13 18.5523 13 18V13.5C13 12 16 11 16 13V18.0004C16 18.5527 16.4477 19 17 19H18C18.5523 19 19 18.5523 19 18V12C19 10 17.5 9 15.5 9C13.5 9 13 10.5 13 10.5V10C13 9.44771 12.5523 9 12 9H11C10.4477 9 10 9.44772 10 10V18C10 18.5523 10.4477 19 11 19Z"
+                fill="#0F0F0F"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
+                fill="#0F0F0F"
+              />
+            </svg>
+            <a target="_blank" href="https://linkedin.com/in/sharifi-mahdi"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </dir>
+
+      <div class="section">
+        <h2>SUMMARY</h2>
+        <p>
+          Experienced Software Engineer with 6+ years of expertise in
+          high-performance systems and cross-language runtime development.
+          Demonstrated success in optimizing large-scale distributed systems,
+          reducing latency by 1000%, improving throughput 20x, and architecting
+          polyglot runtimes supporting 15+ programming languages. Specialized in
+          low-level programming, system architecture, and performance
+          optimization through advanced profiling and debugging techniques.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>SKILLS</h2>
+        <p>
+          Rust | C | C++ | Zig | JS/TS | Bash | Python | JS Runtimes (Node,
+          Deno, Bun) | Axum | Actix | Tokio | Docker | CI/CD | Linux | Git | Git
+          Workflow | Bechmark and Profiling | Async Programming |
+          Multi-threading | Testing (united, integrated) | SQL | Databases
+          (Postgres, Sqlite, MongoDB, Redis) | Networking | Low-level
+          optimization techniques
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>EXPERIENCE</h2>
+
+        <div class="company">
+          <div>
+            <strong>Software Engineer</strong>
+          </div>
+          <div class="work-history">
+            <span class="company-name">
+              <a target="_blank" href="https://metacall.io"
+                >Metacall | Serverless hosting</a
+              >
+            </span>
+            <span class="duration">Feb 2022 - Present</span>
+          </div>
+          <ul>
+            <li>
+              Pioneered Rust compiler integration into MetaCall's polyglot
+              runtime, enabling 15+ languages and attracting 1000+ new users.
+            </li>
+            <li>
+              Evaluated LLVM IR and Assembly output, reducing integration errors
+              by 25% and optimizing execution speed.
+            </li>
+            <li>
+              Leveraged LLDB and Ubsan for debugging, resolving 95% of low-level
+              issues and reducing critical bugs by 50% .
+            </li>
+            <li>
+              Showcased MetaCall's Rust port capabilities using Actix, Tokio,
+              and Axum, reducing cross-language integration overhead by 40%.
+            </li>
+            <li>
+              Built high-performance Node.js loader with C++ addons implementing
+              advanced thread synchronization, improving throughput by 1.5x.
+            </li>
+            <li>
+              Automated CI/CD platform for Node.js shared library releases,
+              reducing build times by 70% and deployment frequency by 2x.
+            </li>
+            <li>
+              Mentored 10+ Google Summer of Code students, achieving 90% project
+              completion rate.
+            </li>
+          </ul>
+        </div>
+
+        <div class="company">
+          <div>
+            <strong>Backend Engineer</strong>
+          </div>
+          <div class="work-history">
+            <span class="company-name">
+              <a target="_blank" href="https://playpod.ir/?lang=en"
+                >PlayPod | Cloud Gaming Platform for eSports</a
+              >
+            </span>
+            <span class="duration">Jan 2021 - Jan 2022</span>
+          </div>
+          <ul>
+            <li>
+              Developed high-performance backend using Quic protocol, achieving
+              2x speed improvement and reducing latency by 60%.
+            </li>
+            <li>
+              Optimized the engine for WebAssembly integration, improving
+              browser rendering performance by 45% .
+            </li>
+            <li>
+              Utilized GDB and Valgrind for memory profiling and debugging,
+              eliminating 90% of memory leaks and reducing crashes by 75%.
+            </li>
+            <li>
+              Enhanced backend responsiveness through optimized network
+              protocols, achieving &lt;20ms latency for 90% of requests.
+            </li>
+            <li>
+              Established comprehensive CI/CD pipeline, reducing deployment time
+              by 65% and bug detection by 80%.
+            </li>
+            <li>
+              Developed metaprogramming solutions using Rust macros and C++
+              templating, cutting development time by 40%.
+            </li>
+            <li>
+              Led agile development practices through scrum meetings and code
+              reviews, improving team velocity by 35%.
+            </li>
+          </ul>
+        </div>
+
+        <div class="company">
+          <div>
+            <strong>Backend Engineer</strong>
+          </div>
+          <div class="work-history">
+            <span class="company-name">
+              <a target="_blank" href="http://www.royan-co.ir"
+                >Royan Information Technology Enterprise</a
+              >
+            </span>
+            <span class="duration">Jan 2018 - Dec 2020</span>
+          </div>
+          <ul>
+            <li>
+              Optimized database queries achieving 20-30% faster execution;
+              implemented SQLite migration for 70% speed improvement.
+            </li>
+            <li>
+              Deployed 250+ REST API endpoints using Node.js, improving site
+              speed by 80% through Redis caching.
+            </li>
+            <li>
+              Reimplemented WebSocket API as C++ TCP socket protocol, achieving
+              1000% speed increase and 20x user capacity.
+            </li>
+            <li>
+              Developed metaprogramming solutions using Rust macros and C++
+              templating, cutting development time by 40%.
+            </li>
+          </ul>
+        </div>
+
+        <div class="company">
+          <div>
+            <strong>Github</strong>
+          </div>
+          <div class="work-history">
+            <span class="company-name">Open-source Works</span>
+          </div>
+          <ul>
+            <li>
+              Engineered high-performance in-memory database using Zig/C,
+              achieving 100% speedup through SIMD and optimized hashtables.
+            </li>
+            <li>
+              Developed high-performance stdlib replacing libc through optimized
+              syscalls, efficient memory management, and custom IO operations
+              for C/C++/Zig.
+            </li>
+            <li>
+              Enhanced Node.js core ARM build system, resolving
+              cross-compilation challenges.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>ARTICLES</h2>
+        <div class="article-group">
+          <div class="article-with-svg">
+            <svg fill="none" viewBox="0 0 24 24" class="link">
+              <path
+                d="M9.16488 17.6505C8.92513 17.8743 8.73958 18.0241 8.54996 18.1336C7.62175 18.6695 6.47816 18.6695 5.54996 18.1336C5.20791 17.9361 4.87912 17.6073 4.22153 16.9498C3.56394 16.2922 3.23514 15.9634 3.03767 15.6213C2.50177 14.6931 2.50177 13.5495 3.03767 12.6213C3.23514 12.2793 3.56394 11.9505 4.22153 11.2929L7.04996 8.46448C7.70755 7.80689 8.03634 7.47809 8.37838 7.28062C9.30659 6.74472 10.4502 6.74472 11.3784 7.28061C11.7204 7.47809 12.0492 7.80689 12.7068 8.46448C13.3644 9.12207 13.6932 9.45086 13.8907 9.7929C14.4266 10.7211 14.4266 11.8647 13.8907 12.7929C13.7812 12.9825 13.6314 13.1681 13.4075 13.4078M10.5919 10.5922C10.368 10.8319 10.2182 11.0175 10.1087 11.2071C9.57284 12.1353 9.57284 13.2789 10.1087 14.2071C10.3062 14.5492 10.635 14.878 11.2926 15.5355C11.9502 16.1931 12.279 16.5219 12.621 16.7194C13.5492 17.2553 14.6928 17.2553 15.621 16.7194C15.9631 16.5219 16.2919 16.1931 16.9495 15.5355L19.7779 12.7071C20.4355 12.0495 20.7643 11.7207 20.9617 11.3787C21.4976 10.4505 21.4976 9.30689 20.9617 8.37869C20.7643 8.03665 20.4355 7.70785 19.7779 7.05026C19.1203 6.39267 18.7915 6.06388 18.4495 5.8664C17.5212 5.3305 16.3777 5.3305 15.4495 5.8664C15.2598 5.97588 15.0743 6.12571 14.8345 6.34955"
+                stroke="#000000"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+            <a
+              target="_blank"
+              href="https://medium.com/@mail_89924/rust-ssr-for-reactjs-with-metacall-a84ed4aeaef4"
+              >Rust SSR for ReactJS with Metacall
+            </a>
+          </div>
+          <div class="article-with-svg">
+            <svg fill="none" viewBox="0 0 24 24" class="link">
+              <path
+                d="M9.16488 17.6505C8.92513 17.8743 8.73958 18.0241 8.54996 18.1336C7.62175 18.6695 6.47816 18.6695 5.54996 18.1336C5.20791 17.9361 4.87912 17.6073 4.22153 16.9498C3.56394 16.2922 3.23514 15.9634 3.03767 15.6213C2.50177 14.6931 2.50177 13.5495 3.03767 12.6213C3.23514 12.2793 3.56394 11.9505 4.22153 11.2929L7.04996 8.46448C7.70755 7.80689 8.03634 7.47809 8.37838 7.28062C9.30659 6.74472 10.4502 6.74472 11.3784 7.28061C11.7204 7.47809 12.0492 7.80689 12.7068 8.46448C13.3644 9.12207 13.6932 9.45086 13.8907 9.7929C14.4266 10.7211 14.4266 11.8647 13.8907 12.7929C13.7812 12.9825 13.6314 13.1681 13.4075 13.4078M10.5919 10.5922C10.368 10.8319 10.2182 11.0175 10.1087 11.2071C9.57284 12.1353 9.57284 13.2789 10.1087 14.2071C10.3062 14.5492 10.635 14.878 11.2926 15.5355C11.9502 16.1931 12.279 16.5219 12.621 16.7194C13.5492 17.2553 14.6928 17.2553 15.621 16.7194C15.9631 16.5219 16.2919 16.1931 16.9495 15.5355L19.7779 12.7071C20.4355 12.0495 20.7643 11.7207 20.9617 11.3787C21.4976 10.4505 21.4976 9.30689 20.9617 8.37869C20.7643 8.03665 20.4355 7.70785 19.7779 7.05026C19.1203 6.39267 18.7915 6.06388 18.4495 5.8664C17.5212 5.3305 16.3777 5.3305 15.4495 5.8664C15.2598 5.97588 15.0743 6.12571 14.8345 6.34955"
+                stroke="#000000"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+            <a
+              target="_blank"
+              href="https://medium.com/@mail_89924/introduction-to-libc-free-programming-ad222e23df1d"
+              >Introduction to Libc-free programming
+            </a>
+          </div>
+        </div>
+
+        <div class="article-group">
+          <div class="article-with-svg">
+            <svg fill="none" viewBox="0 0 24 24" class="link">
+              <path
+                d="M9.16488 17.6505C8.92513 17.8743 8.73958 18.0241 8.54996 18.1336C7.62175 18.6695 6.47816 18.6695 5.54996 18.1336C5.20791 17.9361 4.87912 17.6073 4.22153 16.9498C3.56394 16.2922 3.23514 15.9634 3.03767 15.6213C2.50177 14.6931 2.50177 13.5495 3.03767 12.6213C3.23514 12.2793 3.56394 11.9505 4.22153 11.2929L7.04996 8.46448C7.70755 7.80689 8.03634 7.47809 8.37838 7.28062C9.30659 6.74472 10.4502 6.74472 11.3784 7.28061C11.7204 7.47809 12.0492 7.80689 12.7068 8.46448C13.3644 9.12207 13.6932 9.45086 13.8907 9.7929C14.4266 10.7211 14.4266 11.8647 13.8907 12.7929C13.7812 12.9825 13.6314 13.1681 13.4075 13.4078M10.5919 10.5922C10.368 10.8319 10.2182 11.0175 10.1087 11.2071C9.57284 12.1353 9.57284 13.2789 10.1087 14.2071C10.3062 14.5492 10.635 14.878 11.2926 15.5355C11.9502 16.1931 12.279 16.5219 12.621 16.7194C13.5492 17.2553 14.6928 17.2553 15.621 16.7194C15.9631 16.5219 16.2919 16.1931 16.9495 15.5355L19.7779 12.7071C20.4355 12.0495 20.7643 11.7207 20.9617 11.3787C21.4976 10.4505 21.4976 9.30689 20.9617 8.37869C20.7643 8.03665 20.4355 7.70785 19.7779 7.05026C19.1203 6.39267 18.7915 6.06388 18.4495 5.8664C17.5212 5.3305 16.3777 5.3305 15.4495 5.8664C15.2598 5.97588 15.0743 6.12571 14.8345 6.34955"
+                stroke="#000000"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+            <a
+              target="_blank"
+              href="https://medium.com/@mail_89924/introduction-to-syscalls-in-linux-c237cc5d4267"
+              >Introduction to syscalls in Linux</a
+            >
+          </div>
+          <div class="article-with-svg">
+            <svg fill="none" viewBox="0 0 24 24" class="link">
+              <path
+                d="M9.16488 17.6505C8.92513 17.8743 8.73958 18.0241 8.54996 18.1336C7.62175 18.6695 6.47816 18.6695 5.54996 18.1336C5.20791 17.9361 4.87912 17.6073 4.22153 16.9498C3.56394 16.2922 3.23514 15.9634 3.03767 15.6213C2.50177 14.6931 2.50177 13.5495 3.03767 12.6213C3.23514 12.2793 3.56394 11.9505 4.22153 11.2929L7.04996 8.46448C7.70755 7.80689 8.03634 7.47809 8.37838 7.28062C9.30659 6.74472 10.4502 6.74472 11.3784 7.28061C11.7204 7.47809 12.0492 7.80689 12.7068 8.46448C13.3644 9.12207 13.6932 9.45086 13.8907 9.7929C14.4266 10.7211 14.4266 11.8647 13.8907 12.7929C13.7812 12.9825 13.6314 13.1681 13.4075 13.4078M10.5919 10.5922C10.368 10.8319 10.2182 11.0175 10.1087 11.2071C9.57284 12.1353 9.57284 13.2789 10.1087 14.2071C10.3062 14.5492 10.635 14.878 11.2926 15.5355C11.9502 16.1931 12.279 16.5219 12.621 16.7194C13.5492 17.2553 14.6928 17.2553 15.621 16.7194C15.9631 16.5219 16.2919 16.1931 16.9495 15.5355L19.7779 12.7071C20.4355 12.0495 20.7643 11.7207 20.9617 11.3787C21.4976 10.4505 21.4976 9.30689 20.9617 8.37869C20.7643 8.03665 20.4355 7.70785 19.7779 7.05026C19.1203 6.39267 18.7915 6.06388 18.4495 5.8664C17.5212 5.3305 16.3777 5.3305 15.4495 5.8664C15.2598 5.97588 15.0743 6.12571 14.8345 6.34955"
+                stroke="#000000"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+            <a
+              target="_blank"
+              href="https://medium.com/@mail_89924/writing-our-first-libc-free-software-9f75f0a6fac0"
+              >Writing our first Libc-free software</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>LANGUAGES</h2>
+        <div>
+          <p class="languages">
+            <span><strong>English</strong>: Fluent</span>
+            <span><strong>Farsi</strong>: Native</span>
+            <span><strong>Arabic</strong>: Basic</span>
+            <span><strong>Kurdish</strong>: Native</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

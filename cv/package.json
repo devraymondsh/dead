@@ -1,0 +1,9 @@
+{
+  "name": "cv",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer-core": "22.7.1"
+  }
+}
